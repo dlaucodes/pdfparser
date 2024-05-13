@@ -25,4 +25,6 @@ with open(FILE_PATH, 'r') as f:
 
             if age > 19 and age < 30:
                 print(f'{name} is {age} years old')
+            else:
+                print('not found')
 
